@@ -30,14 +30,15 @@ p {
     /* margem lateral */
 }
 
-.imagem-introducao,
-.infografico {
+.drone,
+.foto {
     display: block;
     margin: 20px auto;
     max-width: 40%;
     height: auto;
     border-radius: 20px 20px 20px 20px;
 }
+
 #referencias {
     max-width: 1000px;
     margin: 0 auto;
@@ -46,7 +47,8 @@ p {
 
 #referencias h3,
 #referencias p {
-    padding-left: 0; /* remove qualquer recuo lateral */
+    padding-left: 0;
+    /* remove qualquer recuo lateral */
 }
 
 footer {
@@ -59,8 +61,10 @@ footer {
 }
 
 footer p {
-    margin: 0;             /* remove margem automática que pode estar deslocando */
-    display: inline-block; /* garante que o texto se comporte como um bloco centralizável */
+    margin: 0;
+    /* remove margem automática que pode estar deslocando */
+    display: inline-block;
+    /* garante que o texto se comporte como um bloco centralizável */
 }
 
 @media (max-width: 600px) {
@@ -76,8 +80,8 @@ footer p {
         font-size: 1.2rem;
     }
 
-    .imagem-introducao,
-    .infografico {
+    .drone,
+    .foto {
         max-width: 90%;
     }
 
@@ -94,8 +98,8 @@ footer p {
 /* Tablets (601px até 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    .imagem-introducao,
-    .infografico {
+    .drone,
+    .foto {
         max-width: 60%;
     }
 
